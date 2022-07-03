@@ -3,14 +3,30 @@
   padding: 0;
 }
 
+p{
+  margin-bottom: 20px;
+}
+
 h2{
   padding: 20px;
+}
+
+h4{
+  margin-bottom: 40px;
+}
+
+.sprintsbox{
+  width: 25%;
+  background-color: #6bd46f;
+  padding: 50px;
+  border-radius: 30px;
 }
 
 .contents{
   border-style: solid;
   width: 50%;
   position: relative;
+  padding: 30px;
 }
 
 .contents p{
@@ -42,7 +58,7 @@ table{
 
 .navbar {
   position: relative;
-  background-color: #4CAF50;;
+  background-color: #6bd46f;
   overflow: hidden;
   padding: 20px;
 }
@@ -102,9 +118,21 @@ footer{
   padding: 50px;
 }
 
+footer{
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width: 320px) {
     p {
         font-size: 30px;
+    }
+
+    li{
+      font-size: 30px;
+    }
+
+    span{
+      font-size: 30px;
     }
   }
 
@@ -112,10 +140,28 @@ footer{
     p {
         font-size: 25px;
     }
+    li{
+      font-size: 25px;
+    }
+    span{
+      font-size: 25px;
+    }
+  }
+
+  table{
+    width: 100%;
   }
 
 @media screen and (min-width: 1200px) {
     p {
-        font-size: 20px
+      font-size: 20px;
+    }
+
+    li{
+      font-size: 20px;
+    }
+
+    span{
+      font-size: 20px;
     }
   }
